@@ -18,7 +18,7 @@
     font: inherit;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 20rem;
+    width: 100%;
     max-width: 100%;
   }
   
@@ -30,7 +30,7 @@
   
   .actions button {
     font: inherit;
-    color: #5a1a01;
+    color: #2ecc71;
     cursor: pointer;
     background-color: transparent;
     border: none;
@@ -44,20 +44,23 @@
   }
   
   .actions .submit {
-    border: 1px solid #5a1a01;
-    background-color: #5a1a01;
+    border: 1px solid #2ecc71;
+    background-color: #2ecc71;
     color: white;
   }
   
   .actions .submit:hover,
   .actions .submit:active {
-    background-color: #7a2706;
+    background-color: #199e51;
   }
   
   .invalid label {
     color: #ca3e51;
   }
   
+  .invalid p {
+    color: #ca3e51;
+  }
   .invalid input {
     border-color: #aa0b20;
     background-color: #ffeff1;
